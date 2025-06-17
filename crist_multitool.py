@@ -42,8 +42,7 @@ def menu():
         print("   4) Modo diagnóstico total")
         print("   5) Salir")
         print(Fore.YELLOW + "\n⭐ Si te gusta, deja una estrella en GitHub")
-        print("💸 Donaciones: miniosjuan89@gmail.com (PayPal)\n")
-        opcion = input(Fore.GREEN + "👉 Opción: ")
+            opcion = input(Fore.GREEN + "👉 Opción: ")
 
         if opcion == "1":
             escanear_red()
@@ -61,3 +60,4 @@ def menu():
         input(Fore.CYAN + "\nPresiona ENTER para continuar...")
 
 menu()
+     
