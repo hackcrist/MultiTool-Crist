@@ -12,19 +12,16 @@ def banner():
     fig = Figlet(font='slant')
     print(Fore.GREEN + fig.renderText("Crist MultiTool"))
     print(Fore.CYAN + "🧠 Herramienta multifuncional para Termux y Kali Linux")
-    print(Fore.YELLOW + "By Crist Hack – Solo para uso ético
-")
+    print(Fore.YELLOW + "By Crist Hack – Solo para uso ético\n")
 
 def escanear_red():
     red = input(Fore.CYAN + "🔍 Ingresa el rango de red (ej. 192.168.1.0/24): ")
     subprocess.run(["nmap", "-sn", red])
 
 def ver_ip():
-    print(Fore.YELLOW + "
-🌐 IP pública:")
+    print(Fore.YELLOW + "\n🌐 IP pública:")
     subprocess.run("curl -s ifconfig.me", shell=True)
-    print(Fore.YELLOW + "
-📡 IP local:")
+    print(Fore.YELLOW + "\n📡 IP local:")
     subprocess.run("ip a | grep inet", shell=True)
 
 def descargar_video():
@@ -44,10 +41,8 @@ def menu():
         print("   3) Descargar videos")
         print("   4) Modo diagnóstico total")
         print("   5) Salir")
-        print(Fore.YELLOW + "
-⭐ Si te gusta, deja una estrella en GitHub")
-        print("💸 Donaciones: miniosjuan89@gmail.com (PayPal)
-")
+        print(Fore.YELLOW + "\n⭐ Si te gusta, deja una estrella en GitHub")
+        print("💸 Donaciones: miniosjuan89@gmail.com (PayPal)\n")
         opcion = input(Fore.GREEN + "👉 Opción: ")
 
         if opcion == "1":
@@ -63,7 +58,6 @@ def menu():
             break
         else:
             print(Fore.RED + "❌ Opción inválida")
-        input(Fore.CYAN + "
-Presiona ENTER para continuar...")
+        input(Fore.CYAN + "\nPresiona ENTER para continuar...")
 
 menu()
