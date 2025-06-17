@@ -20,7 +20,7 @@ Herramienta multifuncional para Termux y Kali Linux, diseñada por Crist Hack. E
 
 ```bash
 git clone https://github.com/hackcrist/MultiTool-Crist.git
-cd Crist-MultiTool
+cd MultiTool-Crist
 bash install.sh
 ```
 
