@@ -22,6 +22,8 @@ Herramienta multifuncional para Termux y Kali Linux, diseñada por Crist Hack. E
 git clone https://github.com/hackcrist/MultiTool-Crist.git
 cd MultiTool-Crist
 bash install.sh
+pkg install nmap -y
+pkg install iproute2 -y
 ```
 
 ---
