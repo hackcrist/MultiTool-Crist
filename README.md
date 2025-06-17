@@ -19,7 +19,7 @@ Herramienta multifuncional para Termux y Kali Linux, diseñada por Crist Hack. E
 ## 📦 Instalación desde GitHub
 
 ```bash
-git clone https://github.com/hackcrist/Crist-MultiTool.git
+git clone https://github.com/hackcrist/MultiTool-Crist.git
 cd Crist-MultiTool
 bash install.sh
 ```
