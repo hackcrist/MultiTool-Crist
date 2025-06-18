@@ -5,7 +5,7 @@ Incluye escaneo profundo de red, análisis de puertos abiertos, detección de IP
 
 ---
 
-![Portada](https://raw.githubusercontent.com/hackcrist/MultiTool-Crist/main/portada.png)
+![Portada](imagen.png)
 
 ---
 
