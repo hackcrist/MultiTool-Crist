@@ -5,6 +5,10 @@ Incluye escaneo profundo de red, análisis de puertos abiertos, detección de IP
 
 ---
 
+![Portada](https://raw.githubusercontent.com/hackcrist/MultiTool-Crist/main/portada.png)
+
+---
+
 ## 🚀 Funciones principales
 
 ✅ Escaneo de red completo con puertos y versiones  
@@ -23,37 +27,41 @@ Incluye escaneo profundo de red, análisis de puertos abiertos, detección de IP
 
 ```bash
 pkg update -y && pkg upgrade -y
+```
 
-
-
+```bash
 pkg install git python figlet lolcat -y
+```
 
-
-
+```bash
 pip install colorama pyfiglet
+```
 
-
-
+```bash
 pkg install nmap -y
+```
 
-
-
+```bash
 pkg install iproute2 -y
 ```
+
+---
 
 ### 📥 Clonación e instalación
 
 ```bash
 git clone https://github.com/hackcrist/MultiTool-Crist.git
+```
 
-
-
+```bash
 cd MultiTool-Crist
+```
 
-
-
+```bash
 bash install.sh
 ```
+
+---
 
 ### ▶️ Ejecutar herramienta
 
@@ -69,13 +77,13 @@ crist-multitool
 
 ```bash
 wget https://chat.openai.com/sandbox/download/crist-multitool_1.0_all.deb
+```
 
-
-
+```bash
 sudo dpkg -i crist-multitool_1.0_all.deb
+```
 
-
-
+```bash
 crist-multitool
 ```
 
